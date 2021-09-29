@@ -1,10 +1,10 @@
 # stm32_RTOS
  stm32 보드 위에서 freeRTOS를 사용하여 3가지 task를 시분할하여 작업해보았습니다. (유튜브 동영상)
  
-[![](http://img.youtube.com/vi/OuT7sq1aCI4/0.jpg)](https://youtu.be/OuT7sq1aCI4) 
+[![](http://img.youtube.com/vi/5eZYihaHwP8/0.jpg)](https://youtu.be/5eZYihaHwP8) 
 
 
-https://youtu.be/OuT7sq1aCI4
+https://youtu.be/5eZYihaHwP8
 
 <br>
 
@@ -16,9 +16,8 @@ https://youtu.be/OuT7sq1aCI4
  2가지 일을 RTOS를 사용해서 시분할 하면 가능합니다. 
  저는 3가지 task로 나누었고 각각 다른 주기로 작동하도록 시분할 시켜서 작업해보았습니다. 
  
-- HW: stm32F429zi보드, LED 2개, 
-- SW: UART interrupt, GPIO, freeRTOS
-
+- HW: stm32F429zi보드, LED 2개, sound 센서, rotation센서, touch센서 
+- SW: UART interrupt, GPIO, freeRTOS, ADC
 <br>
 
 ## 5. 영상이나 사진
