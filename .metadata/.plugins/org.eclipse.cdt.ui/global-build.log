@@ -1,0 +1,52 @@
+15:54:34 **** Incremental Build of configuration Debug for project 210929_stm32_RTOS_to_MFC ****
+make -j8 all 
+arm-none-eabi-size   210929_stm32_RTOS_to_MFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18504	     24	  20408	  38936	   9818	210929_stm32_RTOS_to_MFC.elf
+Finished building: default.size.stdout
+ 
+15:55:11 **** Incremental Build of configuration Debug for project 210929_stm32_RTOS_to_MFC ****
+make -j8 all 
+arm-none-eabi-size   210929_stm32_RTOS_to_MFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18504	     24	  20408	  38936	   9818	210929_stm32_RTOS_to_MFC.elf
+Finished building: default.size.stdout
+ 
+15:55:24 **** Incremental Build of configuration Debug for project 210929_stm32_RTOS_to_MFC ****
+make -j8 all 
+arm-none-eabi-size   210929_stm32_RTOS_to_MFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18504	     24	  20408	  38936	   9818	210929_stm32_RTOS_to_MFC.elf
+Finished building: default.size.stdout
+ 
+15:55:34 **** Incremental Build of configuration Debug for project 210929_stm32_RTOS_to_MFC ****
+make -j8 all 
+arm-none-eabi-size   210929_stm32_RTOS_to_MFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18504	     24	  20408	  38936	   9818	210929_stm32_RTOS_to_MFC.elf
+Finished building: default.size.stdout
+ 
+15:55:46 **** Incremental Build of configuration Debug for project 210929_stm32_RTOS_to_MFC ****
+make -j8 all 
+arm-none-eabi-size   210929_stm32_RTOS_to_MFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18504	     24	  20408	  38936	   9818	210929_stm32_RTOS_to_MFC.elf
+Finished building: default.size.stdout
+ 
+15:58:38 **** Incremental Build of configuration Debug for project 210929_stm32_RTOS_to_MFC ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32F429xx -c -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Core/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "210929_stm32_RTOS_to_MFC.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="210929_stm32_RTOS_to_MFC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 210929_stm32_RTOS_to_MFC.elf
+ 
+arm-none-eabi-objdump -h -S  210929_stm32_RTOS_to_MFC.elf  > "210929_stm32_RTOS_to_MFC.list"
+arm-none-eabi-objcopy  -O binary  210929_stm32_RTOS_to_MFC.elf  "210929_stm32_RTOS_to_MFC.bin"
+arm-none-eabi-size   210929_stm32_RTOS_to_MFC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18504	     24	  20408	  38936	   9818	210929_stm32_RTOS_to_MFC.elf
+Finished building: default.size.stdout
+ 
+Finished building: 210929_stm32_RTOS_to_MFC.bin
+ 
+Finished building: 210929_stm32_RTOS_to_MFC.list
+ 
