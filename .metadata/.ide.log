@@ -3604,3 +3604,1439 @@
 2021-09-29 15:29:25,968 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 1mS.
 2021-09-29 15:29:26,013 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 1mS.
 2021-09-29 15:58:00,506 [INFO] Gpio:248 - dependency for GPIO [SYS]
+2021-09-29 16:34:20,704 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 445000816 Bytes (1073741824)
+2021-09-29 16:34:23,020 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 457061480 Bytes (1073741824)
+2021-09-29 16:34:23,503 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 470166640 Bytes (1073741824)
+2021-09-29 16:34:23,929 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: FREERTOS
+2021-09-29 16:34:23,930 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2021-09-29 16:34:23,930 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2021-09-29 16:34:23,930 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: USART
+2021-09-29 16:34:23,930 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2021-09-29 16:34:23,933 [INFO] CodeGenerator:603 - code generatio: config db path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\
+2021-09-29 16:34:24,423 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\license.tmp_save
+2021-09-29 16:34:24,583 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\license.tmp
+2021-09-29 16:34:24,622 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\gpio.tmp_save
+2021-09-29 16:34:24,801 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\gpio.tmp
+2021-09-29 16:34:24,993 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-09-29 16:34:25,049 [INFO] Middleware:1103 - No code input for Bsp Dependency
+2021-09-29 16:34:25,063 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_inc.tmp_save
+2021-09-29 16:34:25,292 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_inc.tmp
+2021-09-29 16:34:25,307 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_kernelInit.tmp_save
+2021-09-29 16:34:25,498 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_kernelInit.tmp
+2021-09-29 16:34:25,542 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_kernelStart.tmp_save
+2021-09-29 16:34:25,798 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_kernelStart.tmp
+2021-09-29 16:34:25,814 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_typedefs.tmp_save
+2021-09-29 16:34:26,047 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_typedefs.tmp
+2021-09-29 16:34:26,065 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_vars.tmp_save
+2021-09-29 16:34:26,320 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_vars.tmp
+2021-09-29 16:34:26,337 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_pfp.tmp_save
+2021-09-29 16:34:26,615 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_pfp.tmp
+2021-09-29 16:34:26,631 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_obj_creat.tmp_save
+2021-09-29 16:34:26,926 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_obj_creat.tmp
+2021-09-29 16:34:26,945 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_default_thread.tmp_save
+2021-09-29 16:34:27,162 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_default_thread.tmp
+2021-09-29 16:34:27,178 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_threads.tmp_save
+2021-09-29 16:34:27,363 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_threads.tmp
+2021-09-29 16:34:27,381 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\FreeRTOSConfig.h_save
+2021-09-29 16:34:27,716 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\FreeRTOSConfig.h
+2021-09-29 16:34:27,738 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\freertos.c_save
+2021-09-29 16:34:28,024 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\freertos.c
+2021-09-29 16:34:28,033 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-09-29 16:34:28,036 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for USART
+2021-09-29 16:34:28,038 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-09-29 16:34:28,045 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2021-09-29 16:34:28,047 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-09-29 16:34:28,082 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_it.c_save
+2021-09-29 16:34:28,418 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_it.c
+2021-09-29 16:34:28,438 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\stm32f4xx_it.h_save
+2021-09-29 16:34:28,632 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\stm32f4xx_it.h
+2021-09-29 16:34:28,661 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_hal_msp.c_save
+2021-09-29 16:34:28,989 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_hal_msp.c
+2021-09-29 16:34:29,005 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\system.tmp_save
+2021-09-29 16:34:29,244 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\system.tmp
+2021-09-29 16:34:29,264 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2021-09-29 16:34:29,539 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_hal_timebase_tim.c
+2021-09-29 16:34:29,563 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-09-29 16:34:29,886 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\stm32f4xx_hal_conf.h
+2021-09-29 16:34:29,907 [WARN] IPConfigManager:2701 - IP not found : gpio
+2021-09-29 16:34:29,911 [WARN] CodeGenerator:2649 - IP not found : gpio
+2021-09-29 16:34:29,926 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\main.h_save
+2021-09-29 16:34:30,135 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\main.h
+2021-09-29 16:34:30,157 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\main.c_save
+2021-09-29 16:34:30,509 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\main.c
+2021-09-29 16:34:32,515 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 616mS.
+2021-09-29 16:34:32,534 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2021-09-29 16:34:33,263 [INFO] ConfigFileManager:1066 - The Die is : DIE419
+2021-09-29 16:34:38,686 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 6152mS.
+2021-09-29 16:34:38,688 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 1mS.
+2021-09-29 16:34:38,738 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 1mS.
+2021-09-29 16:39:41,526 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 604148856 Bytes (1073741824)
+2021-09-29 16:39:43,143 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 615160944 Bytes (1073741824)
+2021-09-29 16:39:43,672 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 628987008 Bytes (1073741824)
+2021-09-29 16:39:44,188 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: FREERTOS
+2021-09-29 16:39:44,188 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2021-09-29 16:39:44,188 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2021-09-29 16:39:44,189 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: USART
+2021-09-29 16:39:44,189 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2021-09-29 16:39:44,191 [INFO] CodeGenerator:603 - code generatio: config db path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\
+2021-09-29 16:39:44,725 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\license.tmp_save
+2021-09-29 16:39:44,925 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\license.tmp
+2021-09-29 16:39:44,954 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\gpio.tmp_save
+2021-09-29 16:39:45,233 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\gpio.tmp
+2021-09-29 16:39:45,353 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-09-29 16:39:45,389 [INFO] Middleware:1103 - No code input for Bsp Dependency
+2021-09-29 16:39:45,400 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_inc.tmp_save
+2021-09-29 16:39:45,635 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_inc.tmp
+2021-09-29 16:39:45,661 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_kernelInit.tmp_save
+2021-09-29 16:39:45,917 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_kernelInit.tmp
+2021-09-29 16:39:45,931 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_kernelStart.tmp_save
+2021-09-29 16:39:46,185 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_kernelStart.tmp
+2021-09-29 16:39:46,197 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_typedefs.tmp_save
+2021-09-29 16:39:46,416 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_typedefs.tmp
+2021-09-29 16:39:46,430 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_vars.tmp_save
+2021-09-29 16:39:46,703 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_vars.tmp
+2021-09-29 16:39:46,719 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_pfp.tmp_save
+2021-09-29 16:39:46,955 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_pfp.tmp
+2021-09-29 16:39:46,968 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_obj_creat.tmp_save
+2021-09-29 16:39:47,135 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_obj_creat.tmp
+2021-09-29 16:39:47,149 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_default_thread.tmp_save
+2021-09-29 16:39:47,425 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_default_thread.tmp
+2021-09-29 16:39:47,440 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_threads.tmp_save
+2021-09-29 16:39:47,651 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_threads.tmp
+2021-09-29 16:39:47,669 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\FreeRTOSConfig.h_save
+2021-09-29 16:39:47,978 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\FreeRTOSConfig.h
+2021-09-29 16:39:47,997 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\freertos.c_save
+2021-09-29 16:39:48,288 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\freertos.c
+2021-09-29 16:39:48,297 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-09-29 16:39:48,300 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for USART
+2021-09-29 16:39:48,302 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-09-29 16:39:48,308 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2021-09-29 16:39:48,310 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-09-29 16:39:48,326 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_it.c_save
+2021-09-29 16:39:48,715 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_it.c
+2021-09-29 16:39:48,735 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\stm32f4xx_it.h_save
+2021-09-29 16:39:49,000 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\stm32f4xx_it.h
+2021-09-29 16:39:49,031 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_hal_msp.c_save
+2021-09-29 16:39:49,404 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_hal_msp.c
+2021-09-29 16:39:49,426 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\system.tmp_save
+2021-09-29 16:39:49,667 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\system.tmp
+2021-09-29 16:39:49,683 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2021-09-29 16:39:49,916 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_hal_timebase_tim.c
+2021-09-29 16:39:49,937 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-09-29 16:39:50,271 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\stm32f4xx_hal_conf.h
+2021-09-29 16:39:50,293 [WARN] IPConfigManager:2701 - IP not found : gpio
+2021-09-29 16:39:50,296 [WARN] CodeGenerator:2649 - IP not found : gpio
+2021-09-29 16:39:50,310 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\main.h_save
+2021-09-29 16:39:50,576 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\main.h
+2021-09-29 16:39:50,596 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\main.c_save
+2021-09-29 16:39:51,035 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\main.c
+2021-09-29 16:39:52,856 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 605mS.
+2021-09-29 16:39:52,875 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2021-09-29 16:39:53,586 [INFO] ConfigFileManager:1066 - The Die is : DIE419
+2021-09-29 16:39:58,635 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 5760mS.
+2021-09-29 16:39:58,638 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 1mS.
+2021-09-29 16:39:58,687 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 1mS.
+2021-09-29 16:47:25,238 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 605558408 Bytes (1073741824)
+2021-09-29 16:47:31,712 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 610801288 Bytes (1073741824)
+2021-09-29 16:52:52,559 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 496862616 Bytes (1073741824)
+2021-09-29 16:52:54,093 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 509746568 Bytes (1073741824)
+2021-09-29 16:52:54,664 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 524345800 Bytes (1073741824)
+2021-09-29 16:52:55,119 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: FREERTOS
+2021-09-29 16:52:55,119 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2021-09-29 16:52:55,119 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: RCC
+2021-09-29 16:52:55,119 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: RTC
+2021-09-29 16:52:55,119 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2021-09-29 16:52:55,120 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: USART
+2021-09-29 16:52:55,120 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2021-09-29 16:52:55,122 [INFO] CodeGenerator:603 - code generatio: config db path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\
+2021-09-29 16:52:55,674 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\license.tmp_save
+2021-09-29 16:52:55,889 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\license.tmp
+2021-09-29 16:52:55,918 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\gpio.tmp_save
+2021-09-29 16:52:56,143 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\gpio.tmp
+2021-09-29 16:52:56,302 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-09-29 16:52:56,350 [INFO] Middleware:1103 - No code input for Bsp Dependency
+2021-09-29 16:52:56,364 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_inc.tmp_save
+2021-09-29 16:52:56,608 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_inc.tmp
+2021-09-29 16:52:56,622 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_kernelInit.tmp_save
+2021-09-29 16:52:56,868 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_kernelInit.tmp
+2021-09-29 16:52:56,888 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_kernelStart.tmp_save
+2021-09-29 16:52:57,110 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_kernelStart.tmp
+2021-09-29 16:52:57,125 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_typedefs.tmp_save
+2021-09-29 16:52:57,362 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_typedefs.tmp
+2021-09-29 16:52:57,382 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_vars.tmp_save
+2021-09-29 16:52:57,664 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_vars.tmp
+2021-09-29 16:52:57,680 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_pfp.tmp_save
+2021-09-29 16:52:57,924 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_pfp.tmp
+2021-09-29 16:52:57,941 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_obj_creat.tmp_save
+2021-09-29 16:52:58,158 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_obj_creat.tmp
+2021-09-29 16:52:58,172 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_default_thread.tmp_save
+2021-09-29 16:52:58,329 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_default_thread.tmp
+2021-09-29 16:52:58,343 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_threads.tmp_save
+2021-09-29 16:52:58,561 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_threads.tmp
+2021-09-29 16:52:58,579 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\FreeRTOSConfig.h_save
+2021-09-29 16:52:58,840 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\FreeRTOSConfig.h
+2021-09-29 16:52:58,861 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\freertos.c_save
+2021-09-29 16:52:59,049 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\freertos.c
+2021-09-29 16:52:59,057 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-09-29 16:52:59,060 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for RTC
+2021-09-29 16:52:59,061 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-09-29 16:52:59,065 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-09-29 16:52:59,068 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for USART
+2021-09-29 16:52:59,070 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-09-29 16:52:59,075 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2021-09-29 16:52:59,077 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-09-29 16:52:59,094 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_it.c_save
+2021-09-29 16:52:59,357 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_it.c
+2021-09-29 16:52:59,376 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\stm32f4xx_it.h_save
+2021-09-29 16:52:59,633 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\stm32f4xx_it.h
+2021-09-29 16:52:59,661 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_hal_msp.c_save
+2021-09-29 16:53:00,107 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_hal_msp.c
+2021-09-29 16:53:00,125 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\system.tmp_save
+2021-09-29 16:53:00,386 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\system.tmp
+2021-09-29 16:53:00,403 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2021-09-29 16:53:00,662 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_hal_timebase_tim.c
+2021-09-29 16:53:00,685 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-09-29 16:53:00,974 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\stm32f4xx_hal_conf.h
+2021-09-29 16:53:01,017 [WARN] IPConfigManager:2701 - IP not found : gpio
+2021-09-29 16:53:01,020 [WARN] CodeGenerator:2649 - IP not found : gpio
+2021-09-29 16:53:01,034 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\main.h_save
+2021-09-29 16:53:01,305 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\main.h
+2021-09-29 16:53:01,326 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\main.c_save
+2021-09-29 16:53:01,914 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\main.c
+2021-09-29 16:53:03,659 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 560mS.
+2021-09-29 16:53:03,678 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2021-09-29 16:53:04,134 [INFO] ConfigFileManager:1066 - The Die is : DIE419
+2021-09-29 16:53:09,285 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 5607mS.
+2021-09-29 16:53:09,287 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 1mS.
+2021-09-29 16:53:09,326 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2021-09-29 16:55:52,286 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 494191432 Bytes (1073741824)
+2021-09-29 16:55:53,443 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 506774344 Bytes (1073741824)
+2021-09-29 16:55:53,866 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 521980736 Bytes (1073741824)
+2021-09-29 16:55:54,243 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: FREERTOS
+2021-09-29 16:55:54,243 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2021-09-29 16:55:54,243 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: RCC
+2021-09-29 16:55:54,244 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: RTC
+2021-09-29 16:55:54,244 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2021-09-29 16:55:54,244 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: USART
+2021-09-29 16:55:54,244 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2021-09-29 16:55:54,247 [INFO] CodeGenerator:603 - code generatio: config db path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\
+2021-09-29 16:55:54,735 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\license.tmp_save
+2021-09-29 16:55:54,968 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\license.tmp
+2021-09-29 16:55:54,998 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\gpio.tmp_save
+2021-09-29 16:55:55,233 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\gpio.tmp
+2021-09-29 16:55:55,320 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-09-29 16:55:55,365 [INFO] Middleware:1103 - No code input for Bsp Dependency
+2021-09-29 16:55:55,375 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_inc.tmp_save
+2021-09-29 16:55:55,586 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_inc.tmp
+2021-09-29 16:55:55,600 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_kernelInit.tmp_save
+2021-09-29 16:55:55,836 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_kernelInit.tmp
+2021-09-29 16:55:55,850 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_kernelStart.tmp_save
+2021-09-29 16:55:56,085 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_kernelStart.tmp
+2021-09-29 16:55:56,106 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_typedefs.tmp_save
+2021-09-29 16:55:56,302 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_typedefs.tmp
+2021-09-29 16:55:56,317 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_vars.tmp_save
+2021-09-29 16:55:56,532 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_vars.tmp
+2021-09-29 16:55:56,547 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_pfp.tmp_save
+2021-09-29 16:55:56,792 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_pfp.tmp
+2021-09-29 16:55:56,808 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_obj_creat.tmp_save
+2021-09-29 16:55:57,093 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_obj_creat.tmp
+2021-09-29 16:55:57,107 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_default_thread.tmp_save
+2021-09-29 16:55:57,331 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_default_thread.tmp
+2021-09-29 16:55:57,347 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_threads.tmp_save
+2021-09-29 16:55:57,523 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_threads.tmp
+2021-09-29 16:55:57,538 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\FreeRTOSConfig.h_save
+2021-09-29 16:55:57,741 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\FreeRTOSConfig.h
+2021-09-29 16:55:57,760 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\freertos.c_save
+2021-09-29 16:55:57,949 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\freertos.c
+2021-09-29 16:55:57,957 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-09-29 16:55:57,960 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for RTC
+2021-09-29 16:55:57,964 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-09-29 16:55:57,967 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-09-29 16:55:57,970 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for USART
+2021-09-29 16:55:57,972 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-09-29 16:55:57,976 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2021-09-29 16:55:57,977 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-09-29 16:55:57,991 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_it.c_save
+2021-09-29 16:55:58,248 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_it.c
+2021-09-29 16:55:58,270 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\stm32f4xx_it.h_save
+2021-09-29 16:55:58,452 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\stm32f4xx_it.h
+2021-09-29 16:55:58,496 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_hal_msp.c_save
+2021-09-29 16:55:58,813 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_hal_msp.c
+2021-09-29 16:55:58,829 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\system.tmp_save
+2021-09-29 16:55:59,023 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\system.tmp
+2021-09-29 16:55:59,039 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2021-09-29 16:55:59,264 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_hal_timebase_tim.c
+2021-09-29 16:55:59,286 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-09-29 16:55:59,492 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\stm32f4xx_hal_conf.h
+2021-09-29 16:55:59,514 [WARN] IPConfigManager:2701 - IP not found : gpio
+2021-09-29 16:55:59,518 [WARN] CodeGenerator:2649 - IP not found : gpio
+2021-09-29 16:55:59,531 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\main.h_save
+2021-09-29 16:55:59,775 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\main.h
+2021-09-29 16:55:59,796 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\main.c_save
+2021-09-29 16:56:00,357 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\main.c
+2021-09-29 16:56:02,511 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 553mS.
+2021-09-29 16:56:02,529 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2021-09-29 16:56:03,069 [INFO] ConfigFileManager:1066 - The Die is : DIE419
+2021-09-29 16:56:06,787 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 4258mS.
+2021-09-29 16:56:06,789 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 1mS.
+2021-09-29 16:56:06,818 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 1mS.
+2021-09-29 17:03:57,597 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x421,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-09-29 17:07:12,650 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 586607168 Bytes (1073741824)
+2021-09-29 17:07:14,718 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 599716408 Bytes (1073741824)
+2021-09-29 17:07:15,290 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 663679544 Bytes (1073741824)
+2021-09-29 17:07:15,649 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: FREERTOS
+2021-09-29 17:07:15,649 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2021-09-29 17:07:15,649 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: RCC
+2021-09-29 17:07:15,650 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: RTC
+2021-09-29 17:07:15,650 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2021-09-29 17:07:15,650 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: USART
+2021-09-29 17:07:15,650 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2021-09-29 17:07:15,652 [INFO] CodeGenerator:603 - code generatio: config db path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\
+2021-09-29 17:07:16,164 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\license.tmp_save
+2021-09-29 17:07:16,357 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\license.tmp
+2021-09-29 17:07:16,486 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\gpio.tmp_save
+2021-09-29 17:07:16,702 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\gpio.tmp
+2021-09-29 17:07:16,777 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-09-29 17:07:16,831 [INFO] Middleware:1103 - No code input for Bsp Dependency
+2021-09-29 17:07:16,842 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_inc.tmp_save
+2021-09-29 17:07:17,092 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_inc.tmp
+2021-09-29 17:07:17,114 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_kernelInit.tmp_save
+2021-09-29 17:07:17,350 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_kernelInit.tmp
+2021-09-29 17:07:17,365 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_kernelStart.tmp_save
+2021-09-29 17:07:17,606 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_kernelStart.tmp
+2021-09-29 17:07:17,622 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_typedefs.tmp_save
+2021-09-29 17:07:17,890 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_typedefs.tmp
+2021-09-29 17:07:17,904 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_vars.tmp_save
+2021-09-29 17:07:18,141 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_vars.tmp
+2021-09-29 17:07:18,155 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_pfp.tmp_save
+2021-09-29 17:07:18,417 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_pfp.tmp
+2021-09-29 17:07:18,430 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_obj_creat.tmp_save
+2021-09-29 17:07:18,693 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_obj_creat.tmp
+2021-09-29 17:07:18,708 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_default_thread.tmp_save
+2021-09-29 17:07:18,938 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_default_thread.tmp
+2021-09-29 17:07:18,955 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_threads.tmp_save
+2021-09-29 17:07:19,190 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_threads.tmp
+2021-09-29 17:07:19,206 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\FreeRTOSConfig.h_save
+2021-09-29 17:07:19,499 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\FreeRTOSConfig.h
+2021-09-29 17:07:19,520 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\freertos.c_save
+2021-09-29 17:07:19,741 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\freertos.c
+2021-09-29 17:07:19,756 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-09-29 17:07:19,759 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for RTC
+2021-09-29 17:07:19,761 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-09-29 17:07:19,766 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-09-29 17:07:19,769 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for USART
+2021-09-29 17:07:19,771 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-09-29 17:07:19,776 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2021-09-29 17:07:19,778 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-09-29 17:07:19,794 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_it.c_save
+2021-09-29 17:07:20,015 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_it.c
+2021-09-29 17:07:20,032 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\stm32f4xx_it.h_save
+2021-09-29 17:07:20,306 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\stm32f4xx_it.h
+2021-09-29 17:07:20,336 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_hal_msp.c_save
+2021-09-29 17:07:20,686 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_hal_msp.c
+2021-09-29 17:07:20,702 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\system.tmp_save
+2021-09-29 17:07:20,945 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\system.tmp
+2021-09-29 17:07:20,961 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2021-09-29 17:07:21,202 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_hal_timebase_tim.c
+2021-09-29 17:07:21,222 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-09-29 17:07:21,516 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\stm32f4xx_hal_conf.h
+2021-09-29 17:07:21,542 [WARN] IPConfigManager:2701 - IP not found : gpio
+2021-09-29 17:07:21,544 [WARN] CodeGenerator:2649 - IP not found : gpio
+2021-09-29 17:07:21,557 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\main.h_save
+2021-09-29 17:07:21,804 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\main.h
+2021-09-29 17:07:21,825 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\main.c_save
+2021-09-29 17:07:22,236 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\main.c
+2021-09-29 17:07:23,684 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 552mS.
+2021-09-29 17:07:23,702 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2021-09-29 17:07:24,769 [INFO] ConfigFileManager:1066 - The Die is : DIE419
+2021-09-29 17:07:29,957 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 6255mS.
+2021-09-29 17:07:29,959 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 1mS.
+2021-09-29 17:07:30,019 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 1mS.
+2021-09-29 17:25:35,723 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-09-29 17:26:48,428 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-09-29 23:10:07,741 [INFO] Activator:176 - 
+
+
+2021-09-29 23:10:07,746 [INFO] Activator:177 - !SESSION log4j initialized
+2021-09-29 23:11:54,873 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639
+2021-09-29 23:11:54,897 [INFO] DbMcusXml:72 - Set database path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/
+2021-09-29 23:11:54,903 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/boardmanager/
+2021-09-29 23:11:54,905 [INFO] DbMcus:235 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2021-09-29 23:11:54,905 [INFO] DbBoards:232 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2021-09-29 23:11:54,920 [INFO] DbMcusAds:85 - Set database path to: C:\Users\hwido\.stmcufinder\plugins\mcufinder//mcu/
+2021-09-29 23:11:54,922 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\hwido\.stmcufinder\plugins\mcufinder//mcu/
+2021-09-29 23:11:54,927 [INFO] DbMcusJson:61 - Set database path to: C:\Users\hwido\.stmcufinder\plugins\mcufinder//mcu/
+2021-09-29 23:11:54,929 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\hwido\.stmcufinder\plugins\mcufinder//mcu/
+2021-09-29 23:11:54,980 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\hwido\.stmcufinder\plugins\mcufinder//mcu/
+2021-09-29 23:11:55,377 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\hwido\.stmcufinder\plugins\mcufinder//mcu/cs/
+2021-09-29 23:11:55,497 [INFO] RulesReader:52 - Compatibility file has been processed (208 Rules)
+2021-09-29 23:11:55,608 [INFO] MicroXplorer:570 - Detected Java Version = 1.8.0_242
+2021-09-29 23:11:55,608 [INFO] DbMcusXml:72 - Set database path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/
+2021-09-29 23:11:55,608 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/boardmanager/
+2021-09-29 23:11:55,609 [INFO] DbMcus:235 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2021-09-29 23:11:55,610 [INFO] DbBoards:232 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2021-09-29 23:11:55,610 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\hwido\.stmcufinder\plugins\mcufinder/ => C:\Users\hwido\.stmcufinder\plugins\mcufinder
+2021-09-29 23:11:55,611 [INFO] DbMcusAds:85 - Set database path to: C:\Users\hwido\.stmcufinder\plugins\mcufinder//mcu/
+2021-09-29 23:11:55,611 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\hwido\.stmcufinder\plugins\mcufinder/ => C:\Users\hwido\.stmcufinder\plugins\mcufinder
+2021-09-29 23:11:55,611 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\hwido\.stmcufinder\plugins\mcufinder//mcu/
+2021-09-29 23:11:55,611 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\hwido\.stmcufinder\plugins\mcufinder/ => C:\Users\hwido\.stmcufinder\plugins\mcufinder
+2021-09-29 23:11:55,612 [INFO] DbMcusJson:61 - Set database path to: C:\Users\hwido\.stmcufinder\plugins\mcufinder//mcu/
+2021-09-29 23:11:55,612 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\hwido\.stmcufinder\plugins\mcufinder/ => C:\Users\hwido\.stmcufinder\plugins\mcufinder
+2021-09-29 23:11:55,612 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\hwido\.stmcufinder\plugins\mcufinder//mcu/
+2021-09-29 23:11:55,613 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\hwido\.stmcufinder\plugins\mcufinder/ => C:\Users\hwido\.stmcufinder\plugins\mcufinder
+2021-09-29 23:11:55,613 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\hwido\.stmcufinder\plugins\mcufinder//mcu/
+2021-09-29 23:11:55,613 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\hwido\.stmcufinder\plugins\mcufinder/ => C:\Users\hwido\.stmcufinder\plugins\mcufinder
+2021-09-29 23:11:55,614 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\hwido\.stmcufinder\plugins\mcufinder/ => C:\Users\hwido\.stmcufinder\plugins\mcufinder
+2021-09-29 23:11:55,614 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\hwido\.stmcufinder\plugins\mcufinder//mcu/cs/
+2021-09-29 23:11:55,700 [INFO] MainPanel:181 - HeapMemory: 371195904
+2021-09-29 23:11:55,801 [INFO] DbMcusXml:72 - Set database path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/
+2021-09-29 23:11:55,801 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/boardmanager/
+2021-09-29 23:11:55,802 [INFO] DbMcus:235 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2021-09-29 23:11:55,802 [INFO] DbBoards:232 - Set plugin images path to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2021-09-29 23:11:55,804 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\hwido\.stmcufinder\plugins\mcufinder/ => C:\Users\hwido\.stmcufinder\plugins\mcufinder
+2021-09-29 23:11:55,804 [INFO] DbMcusAds:85 - Set database path to: C:\Users\hwido\.stmcufinder\plugins\mcufinder//mcu/
+2021-09-29 23:11:55,805 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\hwido\.stmcufinder\plugins\mcufinder/ => C:\Users\hwido\.stmcufinder\plugins\mcufinder
+2021-09-29 23:11:55,805 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\hwido\.stmcufinder\plugins\mcufinder//mcu/
+2021-09-29 23:11:55,806 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\hwido\.stmcufinder\plugins\mcufinder/ => C:\Users\hwido\.stmcufinder\plugins\mcufinder
+2021-09-29 23:11:55,806 [INFO] DbMcusJson:61 - Set database path to: C:\Users\hwido\.stmcufinder\plugins\mcufinder//mcu/
+2021-09-29 23:11:55,807 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\hwido\.stmcufinder\plugins\mcufinder/ => C:\Users\hwido\.stmcufinder\plugins\mcufinder
+2021-09-29 23:11:55,807 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\hwido\.stmcufinder\plugins\mcufinder//mcu/
+2021-09-29 23:11:55,808 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\hwido\.stmcufinder\plugins\mcufinder/ => C:\Users\hwido\.stmcufinder\plugins\mcufinder
+2021-09-29 23:11:55,808 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\hwido\.stmcufinder\plugins\mcufinder//mcu/
+2021-09-29 23:11:55,809 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\hwido\.stmcufinder\plugins\mcufinder/ => C:\Users\hwido\.stmcufinder\plugins\mcufinder
+2021-09-29 23:11:55,809 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\hwido\.stmcufinder\plugins\mcufinder/ => C:\Users\hwido\.stmcufinder\plugins\mcufinder
+2021-09-29 23:11:55,810 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\hwido\.stmcufinder\plugins\mcufinder//mcu/cs/
+2021-09-29 23:11:55,832 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639
+2021-09-29 23:11:55,834 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=, tutovideos]
+2021-09-29 23:11:55,836 [INFO] PluginManage:292 - Check plugin analytics
+2021-09-29 23:11:55,844 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2021-09-29 23:11:55,845 [INFO] PluginManage:292 - Check plugin clock
+2021-09-29 23:11:55,879 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2021-09-29 23:11:55,879 [INFO] PluginManage:292 - Check plugin ddr
+2021-09-29 23:11:55,885 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2021-09-29 23:11:55,886 [INFO] PluginManage:292 - Check plugin filemanager
+2021-09-29 23:11:56,044 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2021-09-29 23:11:56,044 [INFO] PluginManage:292 - Check plugin ipmanager
+2021-09-29 23:11:56,059 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2021-09-29 23:11:56,059 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2021-09-29 23:11:56,075 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2021-09-29 23:11:56,076 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2021-09-29 23:11:56,120 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2021-09-29 23:11:56,120 [INFO] PluginManage:292 - Check plugin power
+2021-09-29 23:11:56,139 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2021-09-29 23:11:56,140 [INFO] PluginManage:292 - Check plugin projectmanager
+2021-09-29 23:11:56,165 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2021-09-29 23:11:56,165 [INFO] PluginManage:292 - Check plugin thirdparty
+2021-09-29 23:11:56,244 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/hwido/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 34 ms. number of Sw pack : 14
+2021-09-29 23:11:56,274 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2021-09-29 23:11:56,275 [INFO] PluginManage:292 - Check plugin tools
+2021-09-29 23:11:56,279 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2021-09-29 23:11:56,280 [INFO] PluginManage:292 - Check plugin tutovideos
+2021-09-29 23:11:56,281 [INFO] PluginManage:347 - Ignore plugin tutovideos (category:base)
+2021-09-29 23:11:56,281 [INFO] PluginManage:292 - Check plugin updater
+2021-09-29 23:11:56,297 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2021-09-29 23:11:56,298 [INFO] PluginManage:265 - PluginManage : Loaded plugins [12]
+2021-09-29 23:11:56,631 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2021-09-29 23:11:56,780 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:56,781 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2021-09-29 23:11:56,785 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:56,786 [INFO] PluginManager:200 - loadIPPluginJar : add aes
+2021-09-29 23:11:56,791 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:56,792 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2021-09-29 23:11:56,796 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:56,796 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2021-09-29 23:11:56,800 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:56,801 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2021-09-29 23:11:56,805 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:56,806 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2021-09-29 23:11:56,816 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:56,818 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2021-09-29 23:11:56,821 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:56,822 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2021-09-29 23:11:56,830 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:56,830 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2021-09-29 23:11:56,840 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:56,841 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2021-09-29 23:11:56,862 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:56,862 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2021-09-29 23:11:56,867 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:56,868 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2021-09-29 23:11:56,877 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:56,878 [INFO] PluginManager:200 - loadIPPluginJar : add gic
+2021-09-29 23:11:56,887 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:56,888 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2021-09-29 23:11:56,893 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:56,894 [INFO] PluginManager:200 - loadIPPluginJar : add gtzc
+2021-09-29 23:11:56,898 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:56,899 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2021-09-29 23:11:56,905 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:56,906 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2021-09-29 23:11:56,911 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:56,912 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2021-09-29 23:11:56,918 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:56,918 [INFO] PluginManager:200 - loadIPPluginJar : add ipddr
+2021-09-29 23:11:56,922 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:56,922 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2021-09-29 23:11:56,929 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:56,930 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2021-09-29 23:11:56,936 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:56,937 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2021-09-29 23:11:56,942 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:56,943 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2021-09-29 23:11:56,949 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:56,950 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2021-09-29 23:11:56,963 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:56,969 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2021-09-29 23:11:56,972 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:56,972 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2021-09-29 23:11:56,979 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:56,980 [INFO] PluginManager:200 - loadIPPluginJar : add resmgrutility
+2021-09-29 23:11:56,985 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:56,985 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2021-09-29 23:11:56,991 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:56,991 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2021-09-29 23:11:56,997 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:56,998 [INFO] PluginManager:200 - loadIPPluginJar : add stm32_wpan
+2021-09-29 23:11:57,001 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:57,002 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2021-09-29 23:11:57,008 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:57,009 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2021-09-29 23:11:57,014 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:57,014 [INFO] PluginManager:200 - loadIPPluginJar : add tracer_emb
+2021-09-29 23:11:57,019 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:57,020 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2021-09-29 23:11:57,024 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:57,024 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2021-09-29 23:11:57,029 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:57,029 [INFO] PluginManager:200 - loadIPPluginJar : add ucpd
+2021-09-29 23:11:57,035 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:11:57,036 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2021-09-29 23:11:58,236 [INFO] BoardConnectionPanel:3472 - [DDR PANEL] STM32CubeIDE environment
+2021-09-29 23:11:58,237 [INFO] MainDdrPanel:103 - [DDR PANEL] GETTER - cubeProgrammerPath is: null
+2021-09-29 23:11:58,455 [FATAL] Updater:277 - Updater called before beeing initialized
+2021-09-29 23:11:58,721 [FATAL] Updater:277 - Updater called before beeing initialized
+2021-09-29 23:11:58,727 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2021-09-29 23:11:58,728 [FATAL] Updater:277 - Updater called before beeing initialized
+2021-09-29 23:11:58,734 [INFO] BoardConnectionPanel:3472 - [DDR PANEL] STM32CubeIDE environment
+2021-09-29 23:11:58,735 [INFO] MainDdrPanel:103 - [DDR PANEL] GETTER - cubeProgrammerPath is: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin
+2021-09-29 23:11:58,740 [INFO] ProgrammerExecThread:148 - [ProgrammerAPI] CubeProgrammer command construction: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin\STM32_Programmer_CLI.exe -l
+2021-09-29 23:11:59,060 [INFO] MainDdrPanel:93 - [DDR PANEL] SETTER - Set cubeProgrammerPath to: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin
+2021-09-29 23:11:59,072 [INFO] Updater:886 - Updater Version found : 5.6.0
+2021-09-29 23:11:59,100 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639
+2021-09-29 23:11:59,270 [FATAL] Updater:277 - Updater called before beeing initialized
+2021-09-29 23:11:59,270 [ERROR] IntegrityCheckThread:252 - Cannot obtain thirdParties list 21
+2021-09-29 23:11:59,271 [ERROR] IntegrityCheckThread:100 - Unexpected exception IntegrityCheckThread Thread: Updater error
+2021-09-29 23:11:59,271 [INFO] ThirdPartyDb:261 - Close Third Party DataBase File (C:/Users/hwido/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2021-09-29 23:11:59,388 [INFO] MainUpdater:2230 - connection check result : 10
+2021-09-29 23:11:59,390 [INFO] MainUpdater:236 - Updater Check For Update Now.
+2021-09-29 23:11:59,390 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2021-09-29 23:11:59,478 [INFO] CheckServerUpdateThread:92 - End of CheckServer Thread
+2021-09-29 23:11:59,615 [INFO] MainUpdater:2230 - connection check result : 10
+2021-09-29 23:11:59,805 [INFO] MicroXplorer:390 - Change Database Path : 
+2021-09-29 23:11:59,806 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2021-09-29 23:11:59,810 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2021-09-29 23:11:59,812 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 316430104 Bytes (371195904)
+2021-09-29 23:11:59,814 [INFO] MicroXplorer:390 - Change Database Path : 
+2021-09-29 23:11:59,814 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2021-09-29 23:11:59,814 [INFO] OpenFileManager:274 - Change cursor
+2021-09-29 23:12:05,238 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Parameter (48MHZClocksFreq_Value) has invalid value (90000000)
+2021-09-29 23:12:05,238 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2021-09-29 23:12:05,239 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Parameter (MCO2PinFreq_Value) has invalid value (180000000)
+2021-09-29 23:12:05,240 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Parameter (RTCHSEDivFreq_Value) has invalid value (12500000)
+2021-09-29 23:12:05,943 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 514234032 Bytes (624951296)
+2021-09-29 23:12:05,945 [INFO] DbMcusXml:110 - Load MCU database from C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/families.xml
+2021-09-29 23:12:06,714 [INFO] DbMcusJson:90 - JSON generation date=Wed Feb 12 00:02:54 KST 2020 (1581433374)
+2021-09-29 23:12:07,842 [INFO] DbMcus:171 - Found 1670 MCUs (1625 are supported by CubeMX, 1625 are visible in CubeMX)
+2021-09-29 23:12:07,843 [INFO] ApiDb:147 - User favorites file not found: C:\Users\hwido/.stm32cubemx/favorites.mcus.txt
+2021-09-29 23:12:07,843 [INFO] DbMcus:183 - Set 0 / 0 favorites MCUs
+2021-09-29 23:12:07,871 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/hwido/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 8 ms. number of Sw pack : 14
+2021-09-29 23:12:07,901 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893579304]
+2021-09-29 23:12:07,901 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893579317]
+2021-09-29 23:12:07,901 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893579304]
+2021-09-29 23:12:07,902 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893579317]
+2021-09-29 23:12:07,902 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893579304]
+2021-09-29 23:12:07,902 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893579317]
+2021-09-29 23:12:07,902 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893579304]
+2021-09-29 23:12:07,902 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893579317]
+2021-09-29 23:12:07,913 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,913 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,914 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,914 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,914 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,915 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,915 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,915 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,915 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,915 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,917 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,918 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,918 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,918 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,918 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,919 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,919 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,919 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,919 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,919 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,920 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,920 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,920 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,920 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,921 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,921 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,921 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,921 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,922 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,922 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,922 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,922 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,923 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,923 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,923 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,923 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,923 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,924 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,924 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,924 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,925 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,925 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,925 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,926 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,926 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,926 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,926 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,927 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,927 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:07,927 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:07,927 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,928 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:07,928 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:07,928 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,932 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,932 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,936 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,937 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,937 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,937 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,938 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,938 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,938 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,938 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,939 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,939 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,939 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,939 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,940 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,940 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,940 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,940 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,941 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,941 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,941 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,941 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,941 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,942 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,942 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,942 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,942 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,943 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,943 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,943 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,943 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,944 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,944 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,944 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,944 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,945 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,945 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,945 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,945 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,946 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,946 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,946 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,947 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,947 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,947 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,947 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,948 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,948 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,948 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:07,948 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:07,949 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,949 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:07,949 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:07,950 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,954 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,954 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,954 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,955 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,955 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,955 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,955 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,956 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,956 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,956 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,956 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,957 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,957 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,957 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,957 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,957 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,958 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,958 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,958 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,958 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,959 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,959 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,959 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,959 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,959 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,960 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,960 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,960 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,960 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,961 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,961 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,961 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,961 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,961 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,962 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,962 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,962 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,963 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,963 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,963 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,963 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,964 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,964 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,964 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,965 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,965 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,965 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,965 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,966 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:07,966 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:07,966 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,966 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:07,967 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:07,967 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,970 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,970 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,970 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,971 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,971 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,971 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,971 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,972 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,972 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,972 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,972 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,973 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,973 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,973 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,973 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,973 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,974 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,974 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,974 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,974 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,974 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,975 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,975 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,975 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,975 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,975 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,976 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,976 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,976 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,976 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,976 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,977 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,977 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,977 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,977 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,977 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,978 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,978 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,978 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,978 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,978 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,979 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,979 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,979 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,979 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,980 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,980 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,980 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,980 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:07,980 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:07,981 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,981 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:07,981 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:07,981 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,985 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,985 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,985 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,986 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,986 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,986 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,986 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,986 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,987 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,987 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,987 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,987 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,987 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,988 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,988 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,988 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,988 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,988 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,988 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,988 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,989 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,989 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,989 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:07,989 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,989 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,989 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,989 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,990 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,990 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,990 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,990 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,990 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,990 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,991 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,991 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:07,991 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,991 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,991 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,991 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,991 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,992 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,992 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,992 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,993 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,993 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,993 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,993 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,993 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,994 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:07,994 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:07,994 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,994 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:07,994 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:07,995 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,999 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,999 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:07,999 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,000 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,000 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,000 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,001 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,001 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,001 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,002 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,002 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,002 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,002 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:08,003 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:08,003 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,003 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:08,003 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:08,003 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,004 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:08,004 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:08,004 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,004 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:08,005 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:08,005 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,005 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:08,005 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:08,006 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,006 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:08,006 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:08,006 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,007 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:08,007 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:08,007 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,007 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:08,008 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:08,008 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,008 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,008 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,009 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,009 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,009 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,009 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,010 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,010 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,011 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,011 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,011 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,011 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,011 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:08,012 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:08,012 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,012 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:08,012 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:08,012 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,014 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,014 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,014 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,014 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,014 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,015 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,015 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,015 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,015 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,016 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,016 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,016 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,016 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:08,017 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:08,017 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,017 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:08,017 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:08,017 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,018 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:08,018 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:08,018 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,018 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:08,019 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:08,019 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,019 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:08,019 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:08,019 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,020 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:08,020 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:08,020 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,020 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:08,020 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:08,021 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,021 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:08,021 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:08,021 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,021 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,022 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,022 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,022 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,022 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,023 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,023 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,023 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,023 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,023 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,024 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,024 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,024 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:08,024 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:08,024 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,025 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:08,025 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:08,025 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,027 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,027 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,027 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,027 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,027 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,028 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,028 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,028 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,028 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,028 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,028 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,028 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,028 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:08,029 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:08,029 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,029 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:08,029 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:08,029 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,029 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:08,029 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:08,029 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,029 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:08,030 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:08,030 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,030 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:08,030 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:08,030 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,030 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:08,030 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:08,030 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,030 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:08,031 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:08,031 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,031 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:08,031 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:08,031 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,031 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,031 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,031 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,032 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,032 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,032 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,032 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,032 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,032 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,032 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,032 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,033 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,033 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:08,033 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:08,033 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,033 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:08,034 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:08,034 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,037 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,037 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,037 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,038 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,038 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,038 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,038 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,038 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,039 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,039 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,039 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,039 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,039 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:08,040 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:08,040 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,040 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:08,040 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:08,040 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,041 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:08,041 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:08,041 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,041 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:08,042 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584880]
+2021-09-29 23:12:08,042 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,042 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:08,042 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:08,042 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,043 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:08,043 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:08,043 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,043 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:08,043 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:08,044 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,044 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:08,044 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584862]
+2021-09-29 23:12:08,044 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,044 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,045 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,045 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,045 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,045 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,045 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,046 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,046 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,046 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,046 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,046 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,047 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,047 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:08,047 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:08,047 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,047 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:08,047 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584845]
+2021-09-29 23:12:08,048 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1632893584774]
+2021-09-29 23:12:08,197 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.0.0
+2021-09-29 23:12:08,198 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 3.1.0
+2021-09-29 23:12:08,198 [INFO] ThirdParty:899 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2021-09-29 23:12:08,198 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.2.1
+2021-09-29 23:12:08,198 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.0
+2021-09-29 23:12:08,199 [INFO] ThirdParty:899 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.2.0
+2021-09-29 23:12:08,199 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 5.2.0
+2021-09-29 23:12:08,199 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.1
+2021-09-29 23:12:08,201 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.1
+2021-09-29 23:12:08,201 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.0.0
+2021-09-29 23:12:08,201 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.3
+2021-09-29 23:12:08,201 [INFO] ThirdParty:899 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 4.8.0
+2021-09-29 23:12:08,201 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.17.0
+2021-09-29 23:12:08,844 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2021-09-29 23:12:08,847 [INFO] PinOutPanel:1420 - setPackage(STM32F429ZITx,LQFP144)
+2021-09-29 23:12:09,636 [INFO] UtilMem:74 - Before build in PCC Used Memory: 450460064 Bytes (706740224)
+2021-09-29 23:12:10,413 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/hwido/.stm32cubemx/plugins/power
+2021-09-29 23:12:10,495 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/hwido/.stm32cubemx/plugins/power
+2021-09-29 23:12:10,638 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/hwido/.stm32cubemx/plugins/power
+2021-09-29 23:12:10,648 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/hwido/.stm32cubemx/plugins/power
+2021-09-29 23:12:11,000 [INFO] UtilMem:74 - After build in PCC Used Memory: 476211112 Bytes (706740224)
+2021-09-29 23:12:11,042 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,042 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,042 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,043 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,043 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,043 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,043 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,044 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,044 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,044 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,045 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,045 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,045 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,045 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,046 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,046 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,046 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,046 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,047 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,047 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,047 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,047 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,048 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,048 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,048 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,048 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,049 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,049 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,049 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,050 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,050 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,050 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,050 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,051 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,051 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,051 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,051 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,052 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,052 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,052 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,052 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,053 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,053 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,054 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,054 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,055 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,055 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,055 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,055 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,056 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,056 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,056 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,057 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,057 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,057 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,058 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,058 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,058 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,058 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,059 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,059 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,059 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,060 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,061 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,061 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,061 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2021-09-29 23:12:11,122 [ERROR] FreeRTOS:936 - Null or empty value: should not occur! (nothing added to the table)
+2021-09-29 23:12:11,271 [INFO] ApiDbMcu:451 - Load IP Config File for FREERTOS
+2021-09-29 23:12:11,310 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] toolchainItems.length=====1
+2021-09-29 23:12:11,443 [INFO] OpenFileManager:294 - Restore cursor
+2021-09-29 23:12:25,591 [INFO] ParamManager:955 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2021-09-29 23:12:25,734 [INFO] ParamManager:955 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2021-09-29 23:12:26,057 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:16:53,072 [INFO] ParamManager:955 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2021-09-29 23:16:53,076 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:16:53,077 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:16:53,077 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:16:53,078 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:16:53,078 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:16:53,079 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:16:53,079 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:16:53,080 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:16:53,080 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:16:53,081 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:16:53,081 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:16:53,081 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:16:53,082 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:16:53,082 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:16:53,099 [INFO] ParamManager:955 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2021-09-29 23:16:53,123 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:16:53,541 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:16:53,542 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:16:53,542 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:16:53,542 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:16:53,543 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:16:53,544 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:16:53,544 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:16:53,544 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:16:53,544 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:16:53,544 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:16:53,545 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:16:53,545 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:16:53,545 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:16:53,545 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:16:53,588 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:17:59,032 [INFO] ParamManager:955 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2021-09-29 23:17:59,074 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:17:59,075 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:17:59,075 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:17:59,076 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:17:59,076 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:17:59,077 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:17:59,077 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:17:59,078 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:17:59,078 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:17:59,079 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:17:59,079 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:17:59,079 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:17:59,080 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:17:59,080 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:17:59,120 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:17:59,337 [INFO] ParamManager:955 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2021-09-29 23:17:59,601 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:17:59,602 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:17:59,603 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:17:59,603 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:17:59,603 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:17:59,604 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:17:59,604 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:17:59,604 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:17:59,605 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:17:59,605 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:17:59,605 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:17:59,605 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:17:59,605 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:17:59,606 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:17:59,665 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:18:29,074 [INFO] ParamManager:955 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2021-09-29 23:18:29,098 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:18:29,098 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:18:29,099 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:18:29,099 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:18:29,099 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:18:29,100 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:18:29,100 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:18:29,100 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:18:29,101 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:18:29,101 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:18:29,101 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:18:29,101 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:18:29,102 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:18:29,102 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:18:29,128 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:18:29,318 [INFO] ParamManager:955 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2021-09-29 23:18:29,558 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:18:29,559 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:18:29,559 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:18:29,559 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:18:29,559 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:18:29,560 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:18:29,560 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:18:29,560 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:18:29,560 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:18:29,560 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:18:29,561 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:18:29,561 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:18:29,561 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:18:29,561 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:18:29,612 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:18:42,202 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 400302560 Bytes (706740224)
+2021-09-29 23:18:43,591 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 411836896 Bytes (706740224)
+2021-09-29 23:18:44,020 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 425468384 Bytes (706740224)
+2021-09-29 23:18:44,816 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: FREERTOS
+2021-09-29 23:18:44,817 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: ADC
+2021-09-29 23:18:44,817 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2021-09-29 23:18:44,817 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: ADC
+2021-09-29 23:18:44,817 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: ADC
+2021-09-29 23:18:44,817 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: RCC
+2021-09-29 23:18:44,817 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: RTC
+2021-09-29 23:18:44,817 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2021-09-29 23:18:44,817 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: USART
+2021-09-29 23:18:44,818 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2021-09-29 23:18:44,820 [INFO] CodeGenerator:603 - code generatio: config db path: C:\ST\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\
+2021-09-29 23:18:45,750 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\license.tmp_save
+2021-09-29 23:18:46,324 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\license.tmp
+2021-09-29 23:18:46,507 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\gpio.tmp_save
+2021-09-29 23:18:46,765 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\gpio.tmp
+2021-09-29 23:18:47,256 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-09-29 23:18:47,257 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for ADC
+2021-09-29 23:18:47,258 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-09-29 23:18:47,263 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-09-29 23:18:47,330 [INFO] Middleware:1103 - No code input for Bsp Dependency
+2021-09-29 23:18:47,343 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_inc.tmp_save
+2021-09-29 23:18:47,584 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_inc.tmp
+2021-09-29 23:18:47,601 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_kernelInit.tmp_save
+2021-09-29 23:18:47,772 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_kernelInit.tmp
+2021-09-29 23:18:47,787 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_kernelStart.tmp_save
+2021-09-29 23:18:47,976 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_kernelStart.tmp
+2021-09-29 23:18:48,004 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_typedefs.tmp_save
+2021-09-29 23:18:48,187 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_typedefs.tmp
+2021-09-29 23:18:48,207 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_vars.tmp_save
+2021-09-29 23:18:48,413 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_vars.tmp
+2021-09-29 23:18:48,430 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_pfp.tmp_save
+2021-09-29 23:18:48,606 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_pfp.tmp
+2021-09-29 23:18:48,623 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_obj_creat.tmp_save
+2021-09-29 23:18:48,816 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_obj_creat.tmp
+2021-09-29 23:18:48,834 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_default_thread.tmp_save
+2021-09-29 23:18:49,012 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_default_thread.tmp
+2021-09-29 23:18:49,027 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_threads.tmp_save
+2021-09-29 23:18:49,192 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\rtos_threads.tmp
+2021-09-29 23:18:49,211 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\FreeRTOSConfig.h_save
+2021-09-29 23:18:49,413 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\FreeRTOSConfig.h
+2021-09-29 23:18:49,433 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\freertos.c_save
+2021-09-29 23:18:49,630 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\freertos.c
+2021-09-29 23:18:49,639 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-09-29 23:18:49,641 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for RTC
+2021-09-29 23:18:49,642 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-09-29 23:18:49,646 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-09-29 23:18:49,649 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for USART
+2021-09-29 23:18:49,650 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-09-29 23:18:49,656 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2021-09-29 23:18:49,658 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-09-29 23:18:49,677 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_it.c_save
+2021-09-29 23:18:50,013 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_it.c
+2021-09-29 23:18:50,077 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\stm32f4xx_it.h_save
+2021-09-29 23:18:50,216 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\stm32f4xx_it.h
+2021-09-29 23:18:50,241 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_hal_msp.c_save
+2021-09-29 23:18:50,492 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_hal_msp.c
+2021-09-29 23:18:50,508 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\system.tmp_save
+2021-09-29 23:18:50,599 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\MXTmpFiles\system.tmp
+2021-09-29 23:18:50,615 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2021-09-29 23:18:50,736 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\stm32f4xx_hal_timebase_tim.c
+2021-09-29 23:18:50,755 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-09-29 23:18:50,871 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\stm32f4xx_hal_conf.h
+2021-09-29 23:18:50,913 [WARN] IPConfigManager:2701 - IP not found : gpio
+2021-09-29 23:18:50,915 [WARN] CodeGenerator:2649 - IP not found : gpio
+2021-09-29 23:18:50,928 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\main.h_save
+2021-09-29 23:18:51,080 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Inc\main.h
+2021-09-29 23:18:51,114 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\main.c_save
+2021-09-29 23:18:51,619 [INFO] CodeEngine:206 - Generated code: C:\Users\hwido\Documents\stm32_RTOS_to_MFC\210929_stm32_RTOS_to_MFC\Core\Src\main.c
+2021-09-29 23:18:53,257 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 444mS.
+2021-09-29 23:18:53,273 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2021-09-29 23:18:54,071 [INFO] ConfigFileManager:1066 - The Die is : DIE419
+2021-09-29 23:18:58,670 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 5397mS.
+2021-09-29 23:18:58,672 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 1mS.
+2021-09-29 23:18:58,708 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2021-09-29 23:42:20,418 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:21,799 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:21,799 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:21,800 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:21,800 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:21,800 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:21,801 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:21,801 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:21,801 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:21,802 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:21,803 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:21,803 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:21,804 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:21,804 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:21,804 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:21,858 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:28,634 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:29,831 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:29,831 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:29,831 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:29,832 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:29,832 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:29,832 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:29,832 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:29,832 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:29,832 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:29,832 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:29,832 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:29,833 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:29,833 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:29,833 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:29,870 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:30,911 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:30,911 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:30,912 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:30,912 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:30,912 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:30,912 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:30,913 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:30,913 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:30,913 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:30,913 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:30,914 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:30,914 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:30,914 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:30,914 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:42:30,957 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:57:44,101 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x421,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-09-29 23:57:46,591 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:57:46,591 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:57:46,591 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:57:46,592 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:57:46,592 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:57:46,592 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:57:46,592 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:57:46,592 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:57:46,592 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:57:46,593 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:57:46,593 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:57:46,593 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:57:46,593 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:57:46,593 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:57:46,655 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:57:46,750 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-09-29 23:57:48,281 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:57:48,281 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:57:48,281 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:57:48,281 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:57:48,281 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:57:48,282 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:57:48,282 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:57:48,282 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:57:48,282 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:57:48,282 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:57:48,282 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:57:48,283 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:57:48,283 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:57:48,283 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:57:48,323 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:57:48,419 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-09-29 23:58:00,010 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 666400216 Bytes (910163968)
+2021-09-29 23:59:50,300 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:50,301 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:50,301 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:50,302 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:50,302 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:50,303 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:50,303 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:50,303 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:50,303 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:50,303 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:50,303 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:50,304 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:50,304 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:50,304 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:50,337 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:50,413 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-09-29 23:59:50,708 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:50,708 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:50,708 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:50,709 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:50,709 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:50,709 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:50,709 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:50,709 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:50,709 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:50,709 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:50,710 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:50,710 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:50,710 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:50,710 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:50,811 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:50,861 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-09-29 23:59:51,871 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:51,872 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:51,872 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:51,872 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:51,872 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:51,872 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:51,872 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:51,873 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:51,873 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:51,873 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:51,873 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:51,873 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:51,873 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:51,873 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:51,918 [INFO] ADCParametersView:101 -                Rank 1 : false
+2021-09-29 23:59:51,989 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
