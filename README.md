@@ -1,10 +1,10 @@
 # stm32_RTOS
  stm32 보드 위에서 freeRTOS를 사용하여 3가지 task를 시분할하여 작업해보았습니다. (유튜브 동영상)
  
-[![](http://img.youtube.com/vi/p9Hc8ghqyvo/0.jpg)](https://youtu.be/p9Hc8ghqyvo) 
+[![](http://img.youtube.com/vi/OuT7sq1aCI4/0.jpg)](https://youtu.be/OuT7sq1aCI4) 
 
 
-https://youtu.be/p9Hc8ghqyvo
+https://youtu.be/OuT7sq1aCI4
 
 <br>
 
@@ -23,9 +23,5 @@ https://youtu.be/p9Hc8ghqyvo
 
 ## 5. 영상이나 사진
 ![image](https://user-images.githubusercontent.com/81784631/135242603-717a15cb-2f47-4756-af7a-b3dda8e933eb.png)
-
-
-[![Grepp_A#](http://img.youtube.com/vi/WPJwRBtUBCQ/0.jpg)](https://www.youtube.com/embed/WPJwRBtUBCQ) 
-
 
 
