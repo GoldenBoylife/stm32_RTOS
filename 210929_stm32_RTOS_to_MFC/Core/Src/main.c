@@ -1,3 +1,4 @@
+/*
 /* USER CODE BEGIN Header */
 /**
   ******************************************************************************
@@ -42,6 +43,10 @@
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
+ADC_HandleTypeDef hadc1;
+ADC_HandleTypeDef hadc2;
+ADC_HandleTypeDef hadc3;
+
 RTC_HandleTypeDef hrtc;
 
 UART_HandleTypeDef huart3;
@@ -53,23 +58,42 @@ const osThreadAttr_t defaultTask_attributes = {
   .priority = (osPriority_t) osPriorityNormal,
   .stack_size = 128 * 4
 };
-
-osThreadId_t LD2TaskHandle;
-const osThreadAttr_t LD2Task_attributes = {
-  .name = "LD2 Task",
-  .priority = (osPriority_t) osPriorityNormal,
-  .stack_size = 128 * 4
-};
-
-
-osThreadId_t LD3TaskHandle;
-const osThreadAttr_t LD3Task_attributes = {
-  .name = "LD3 Task",
-  .priority = (osPriority_t) osPriorityNormal,
-  .stack_size = 128 * 4
-};
-
 /* USER CODE BEGIN PV */
+osThreadId_t LED1TaskHandle;
+const osThreadAttr_t LED1Task_attributes = {
+  .name = "LED1 Task",
+  .priority = (osPriority_t) osPriorityNormal,
+  .stack_size = 128 * 4
+};
+
+osThreadId_t LED2TaskHandle;
+const osThreadAttr_t LED2Task_attributes = {
+  .name = "LED2 Task",
+  .priority = (osPriority_t) osPriorityNormal,
+  .stack_size = 128 * 4
+};
+
+
+osThreadId_t RotationTaskHandle;
+const osThreadAttr_t RotationTask_attributes = {
+  .name = "rotation Task",
+  .priority = (osPriority_t) osPriorityNormal,
+  .stack_size = 128 * 4
+};
+
+osThreadId_t SoundTaskHandle;
+const osThreadAttr_t SoundTask_attributes = {
+  .name = "Sound Task",
+  .priority = (osPriority_t) osPriorityNormal,
+  .stack_size = 128 * 4
+};
+
+osThreadId_t TouchTaskHandle;
+const osThreadAttr_t TouchTask_attributes = {
+  .name = "TouchTask",
+  .priority = (osPriority_t) osPriorityNormal,
+  .stack_size = 128 * 4
+};
 
 /* USER CODE END PV */
 
@@ -77,35 +101,50 @@ const osThreadAttr_t LD3Task_attributes = {
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_USART3_UART_Init(void);
+static void MX_ADC1_Init(void);
+static void MX_ADC2_Init(void);
+static void MX_ADC3_Init(void);
 static void MX_RTC_Init(void);
+
 void StartDefaultTask(void *argument);
 
-void LD2Task(void *argument);
-void LD3Task(void *argument);
 
 
 static void MX_NVIC_Init(void);
 /* USER CODE BEGIN PFP */
+/*각 센서와 LED 함수*/
+void LED1Task(void *argument);
+void LED2Task(void *argument);
+void RotationTask(void *argument);
+void SoundTask(void *argument);
+void TouchTask(void *argument);
 
 
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+uint32_t adc_value1,adc_value2,adc_value3,adc_value4,adc_value5;
+char uart_buf1[30],uart_buf2[30],uart_buf3[30],uart_buf4[30],uart_buf5[30];
+
+/*UART3라는 한 자원을 여러개의 task들이 공유할 때는 mutex라는 자원을 이용해야 한다.
+이렇게 해야 한 task가 자원을 사용할 때 다른 task가 그 자원을 사용하지 못함. */
+osMutexDef(uart_mutex);
+//Mutex 선언
+osMutexId(uart_mutex_id);
+//Mutex ID
+
+
 char uart_buf[100];
 
 int i;
-////?���? ?��치에?�� uart�? ?��?��?���? 받게 ?���? ?��?��?��?��?��?��(?��?�� it.c?�� ?��?�� USART3_IRQHandler?��?���? ?���? ?���?, ?��곳이 ?��?��?��?��.
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
 	if(huart->Instance == USART3)
 	{
-		//@ ?��기�??�� ?��?��?�� ?��?��?�� ?��
-		////�??���? ?��?�� ?��?��마다 ?��?��?��?�� 발생?��?�� ?��?��?�� 문자?��?�� 발생?��
+
 		HAL_UART_Receive_IT(&huart3, &uart_buf, 1);
-		//?��?��?��?���? 걸리�? ?��?��?���? 버퍼?�� ???��?��?��.
-		//?��번에?�� ?��?�� ?��?�� _IT�? 붙는?��. ?��?��?��?��?��?�� ?��?��?��.
-		//?��?��?? 같다. huart3채널?�� ?��?��?���? uart_buf?��?�� 버퍼�? ?��?��?���? ???��?���?, 1바이?��?�� ?��?��?��?��.
+
 
 	}
 }
@@ -142,14 +181,16 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_USART3_UART_Init();
+  MX_ADC1_Init();
+  MX_ADC2_Init();
+  MX_ADC3_Init();
   MX_RTC_Init();
 
   /* Initialize interrupts */
   MX_NVIC_Init();
   /* USER CODE BEGIN 2 */
   HAL_UART_Receive_IT(&huart3,&uart_buf,1);
-  //?��?�� ?���? ?��줘야 ?��?��?��?�� ?��?��?��?��?��.
-  //uart_buf?�� ?��?��?���? 1바이?���? 체워�?�? ?��?��?��?���? 발생?��?��겠다?��?�� ?��
+
 
   /* USER CODE END 2 */
 
@@ -176,11 +217,18 @@ int main(void)
   /* creation of defaultTask */
   defaultTaskHandle = osThreadNew(StartDefaultTask, NULL, &defaultTask_attributes);
 
-  LD2TaskHandle = osThreadNew(LD2Task, NULL, &LD2Task_attributes);
-
-  LD3TaskHandle = osThreadNew(LD3Task, NULL, &LD3Task_attributes);
-
   /* USER CODE BEGIN RTOS_THREADS */
+  //uart_mutex_id = osMutexCreate(osMutex(uart_mutex));
+
+
+
+  LED1TaskHandle = osThreadNew(LED1Task, NULL, &LED1Task_attributes);
+  LED2TaskHandle = osThreadNew(LED2Task, NULL, &LED2Task_attributes);
+
+  RotationTaskHandle = osThreadNew(RotationTask, NULL, &RotationTask_attributes);
+  SoundTaskHandle = osThreadNew(SoundTask, NULL, &SoundTask_attributes);
+  TouchTaskHandle = osThreadNew(TouchTask, NULL, &TouchTask_attributes);
+
   /* add threads, ... */
   /* USER CODE END RTOS_THREADS */
 
@@ -190,8 +238,11 @@ int main(void)
   /* We should never get here as control is now taken by the scheduler */
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+
   while (1)
   {
+
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -267,6 +318,156 @@ static void MX_NVIC_Init(void)
   /* USART3_IRQn interrupt configuration */
   HAL_NVIC_SetPriority(USART3_IRQn, 5, 0);
   HAL_NVIC_EnableIRQ(USART3_IRQn);
+}
+
+/**
+  * @brief ADC1 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_ADC1_Init(void)
+{
+
+  /* USER CODE BEGIN ADC1_Init 0 */
+
+  /* USER CODE END ADC1_Init 0 */
+
+  ADC_ChannelConfTypeDef sConfig = {0};
+
+  /* USER CODE BEGIN ADC1_Init 1 */
+
+  /* USER CODE END ADC1_Init 1 */
+  /** Configure the global features of the ADC (Clock, Resolution, Data Alignment and number of conversion) 
+  */
+  hadc1.Instance = ADC1;
+  hadc1.Init.ClockPrescaler = ADC_CLOCK_SYNC_PCLK_DIV4;
+  hadc1.Init.Resolution = ADC_RESOLUTION_12B;
+  hadc1.Init.ScanConvMode = DISABLE;
+  hadc1.Init.ContinuousConvMode = DISABLE;
+  hadc1.Init.DiscontinuousConvMode = DISABLE;
+  hadc1.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_NONE;
+  hadc1.Init.ExternalTrigConv = ADC_SOFTWARE_START;
+  hadc1.Init.DataAlign = ADC_DATAALIGN_RIGHT;
+  hadc1.Init.NbrOfConversion = 1;
+  hadc1.Init.DMAContinuousRequests = DISABLE;
+  hadc1.Init.EOCSelection = ADC_EOC_SINGLE_CONV;
+  if (HAL_ADC_Init(&hadc1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time. 
+  */
+  sConfig.Channel = ADC_CHANNEL_3;
+  sConfig.Rank = 1;
+  sConfig.SamplingTime = ADC_SAMPLETIME_3CYCLES;
+  if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN ADC1_Init 2 */
+
+  /* USER CODE END ADC1_Init 2 */
+
+}
+
+/**
+  * @brief ADC2 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_ADC2_Init(void)
+{
+
+  /* USER CODE BEGIN ADC2_Init 0 */
+
+  /* USER CODE END ADC2_Init 0 */
+
+  ADC_ChannelConfTypeDef sConfig = {0};
+
+  /* USER CODE BEGIN ADC2_Init 1 */
+
+  /* USER CODE END ADC2_Init 1 */
+  /** Configure the global features of the ADC (Clock, Resolution, Data Alignment and number of conversion) 
+  */
+  hadc2.Instance = ADC2;
+  hadc2.Init.ClockPrescaler = ADC_CLOCK_SYNC_PCLK_DIV4;
+  hadc2.Init.Resolution = ADC_RESOLUTION_12B;
+  hadc2.Init.ScanConvMode = DISABLE;
+  hadc2.Init.ContinuousConvMode = DISABLE;
+  hadc2.Init.DiscontinuousConvMode = DISABLE;
+  hadc2.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_NONE;
+  hadc2.Init.ExternalTrigConv = ADC_SOFTWARE_START;
+  hadc2.Init.DataAlign = ADC_DATAALIGN_RIGHT;
+  hadc2.Init.NbrOfConversion = 1;
+  hadc2.Init.DMAContinuousRequests = DISABLE;
+  hadc2.Init.EOCSelection = ADC_EOC_SINGLE_CONV;
+  if (HAL_ADC_Init(&hadc2) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time. 
+  */
+  sConfig.Channel = ADC_CHANNEL_10;
+  sConfig.Rank = 1;
+  sConfig.SamplingTime = ADC_SAMPLETIME_3CYCLES;
+  if (HAL_ADC_ConfigChannel(&hadc2, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN ADC2_Init 2 */
+
+  /* USER CODE END ADC2_Init 2 */
+
+}
+
+/**
+  * @brief ADC3 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_ADC3_Init(void)
+{
+
+  /* USER CODE BEGIN ADC3_Init 0 */
+
+  /* USER CODE END ADC3_Init 0 */
+
+  ADC_ChannelConfTypeDef sConfig = {0};
+
+  /* USER CODE BEGIN ADC3_Init 1 */
+
+  /* USER CODE END ADC3_Init 1 */
+  /** Configure the global features of the ADC (Clock, Resolution, Data Alignment and number of conversion) 
+  */
+  hadc3.Instance = ADC3;
+  hadc3.Init.ClockPrescaler = ADC_CLOCK_SYNC_PCLK_DIV4;
+  hadc3.Init.Resolution = ADC_RESOLUTION_12B;
+  hadc3.Init.ScanConvMode = DISABLE;
+  hadc3.Init.ContinuousConvMode = DISABLE;
+  hadc3.Init.DiscontinuousConvMode = DISABLE;
+  hadc3.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_NONE;
+  hadc3.Init.ExternalTrigConv = ADC_SOFTWARE_START;
+  hadc3.Init.DataAlign = ADC_DATAALIGN_RIGHT;
+  hadc3.Init.NbrOfConversion = 1;
+  hadc3.Init.DMAContinuousRequests = DISABLE;
+  hadc3.Init.EOCSelection = ADC_EOC_SINGLE_CONV;
+  if (HAL_ADC_Init(&hadc3) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time. 
+  */
+  sConfig.Channel = ADC_CHANNEL_13;
+  sConfig.Rank = 1;
+  sConfig.SamplingTime = ADC_SAMPLETIME_3CYCLES;
+  if (HAL_ADC_ConfigChannel(&hadc3, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN ADC3_Init 2 */
+
+  /* USER CODE END ADC3_Init 2 */
+
 }
 
 /**
@@ -347,8 +548,8 @@ static void MX_GPIO_Init(void)
 
   /* GPIO Ports Clock Enable */
   __HAL_RCC_GPIOC_CLK_ENABLE();
-  __HAL_RCC_GPIOD_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
+  __HAL_RCC_GPIOD_CLK_ENABLE();
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
@@ -374,7 +575,83 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+void LED1Task(void *argument)
+{
 
+  /* Infinite loop */
+  for(;;)
+  {
+	  HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_7);
+	  osDelay(1500);
+  }
+}
+
+void LED2Task(void *argument)
+{
+
+  /* Infinite loop */
+  for(;;)
+  {
+	  HAL_GPIO_TogglePin(GPIOD,GPIO_PIN_12);
+	  osDelay(500);
+  }
+}
+
+void RotationTask(void *argument)
+{
+
+  /* Infinite loop */
+  for(;;)
+  {
+	  HAL_ADC_Start(&hadc1);
+	  HAL_ADC_PollForConversion(&hadc1,500);
+	  adc_value1 = HAL_ADC_GetValue(&hadc1);
+	  HAL_ADC_Stop(&hadc1);
+	  osMutexWait(uart_mutex_id, osWaitForever);
+	  memset(uart_buf1,0,sizeof(uart_buf1));
+	  sprintf(uart_buf1,"     Rotation =%d \r\n", adc_value1);
+	  HAL_UART_Transmit_IT(&huart3,uart_buf1,sizeof(uart_buf1));
+	  osDelay(1500);
+	  osMutexRelease(uart_mutex_id);
+  }
+}
+
+void SoundTask(void *argument)
+{
+
+  /* Infinite loop */
+  for(;;)
+  {
+	  HAL_ADC_Start(&hadc2);
+	  HAL_ADC_PollForConversion(&hadc2,500);
+	  adc_value2 = HAL_ADC_GetValue(&hadc2);
+	  HAL_ADC_Stop(&hadc2);
+	  osMutexWait(uart_mutex_id, osWaitForever);
+	  memset(uart_buf2,0,sizeof(uart_buf2));
+	  sprintf(uart_buf2,"            Sound =%d\r\n", adc_value2);
+	  HAL_UART_Transmit_IT(&huart3,uart_buf2,sizeof(uart_buf2));
+	  osDelay(100);
+	  osMutexRelease(uart_mutex_id);
+  }
+}
+void TouchTask(void *argument)
+{
+
+  /* Infinite loop */
+  for(;;)
+  {
+	  HAL_ADC_Start(&hadc3);
+	  HAL_ADC_PollForConversion(&hadc3,500);
+	  adc_value3 = HAL_ADC_GetValue(&hadc3);
+	  HAL_ADC_Stop(&hadc3);
+	  osMutexWait(uart_mutex_id, osWaitForever);
+	  memset(uart_buf3,0,sizeof(uart_buf3));
+	  sprintf(uart_buf3,"Touch =%d\r\n", adc_value3);
+	  HAL_UART_Transmit_IT(&huart3,uart_buf3,sizeof(uart_buf3));
+	  osDelay(500);
+	  osMutexRelease(uart_mutex_id);
+  }
+}
 /* USER CODE END 4 */
 
 /* USER CODE BEGIN Header_StartDefaultTask */
@@ -387,39 +664,13 @@ static void MX_GPIO_Init(void)
 void StartDefaultTask(void *argument)
 {
   /* USER CODE BEGIN 5 */
+
   /* Infinite loop */
   for(;;)
   {
-		memset(uart_buf,0,sizeof(uart_buf));
-		sprintf(uart_buf,"인터럽트 %d 회 발생\r\n", i++);
-		HAL_UART_Transmit_IT(&huart3,uart_buf,sizeof(uart_buf));
-		osDelay(500);
-
+	  osDelay(100);
   }
   /* USER CODE END 5 */ 
-}
-void LD2Task(void *argument)
-{
-  /* USER CODE BEGIN 5 */
-  /* Infinite loop */
-  for(;;)
-  {
-	HAL_GPIO_TogglePin(GPIOB,GPIO_PIN_7);
-	osDelay(1000);
-  }
-  /* USER CODE END 5 */
-}
-
-void LD3Task(void *argument)
-{
-  /* USER CODE BEGIN 5 */
-  /* Infinite loop */
-  for(;;)
-  {
-	HAL_GPIO_TogglePin(GPIOD,GPIO_PIN_12);
-	osDelay(200);
-  }
-  /* USER CODE END 5 */
 }
 
  /**
