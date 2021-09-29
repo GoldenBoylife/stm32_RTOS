@@ -21,6 +21,7 @@ https://youtu.be/5eZYihaHwP8
 <br>
 
 ## 5. 영상이나 사진
-![image](https://user-images.githubusercontent.com/81784631/135242603-717a15cb-2f47-4756-af7a-b3dda8e933eb.png)
+![image](![image](https://user-images.githubusercontent.com/81784631/135321041-13e9880c-fcc7-49a7-ac33-10673c234ba9.png)
+)
 
 
